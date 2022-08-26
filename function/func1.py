@@ -30,12 +30,12 @@
 # our_len(ls) # argument
 # print(our_len(str1))
 
-def  sumTwoNums(num1, num2): #параметры
-    result = num1 + num2
-    print(result)
-    return result
+# def  sumTwoNums(num1, num2): #параметры
+#     result = num1 + num2
+#     print(result)
+#     return result
 
-a = sumTwoNums(5, 15) #arguments
+# a = sumTwoNums(5, 15) #arguments
 # print(a)
 
 # def isEven(num):
@@ -58,7 +58,7 @@ a = sumTwoNums(5, 15) #arguments
 #         return True
 #     return False
 
-# print(isEven1(6))
+# print(isEven1(90))
 
 # dir
 
@@ -99,27 +99,31 @@ a = sumTwoNums(5, 15) #arguments
 
 # default = params
 # def func():
-#     print('Hello world!')
+    # print('Hello world!')
 
 # func()
 
-# def print_welcome(name= 'User'):
-#     print(f'Welcome, {name}!')
+# def wc(name= input()):
+#     print(f'Welcome, {name}! Dolban')
+
+# wc()
 
 # print_welcome('John')
 
 # def introduce(name, last_name, work=None):
 #     print(f'This persons name is {name}')
 #     print(f'This persons last_name is {last_name}')
-#     if work:
+#     if work == 'None':
 #         print(f'This persons work is {work}')
+#     else:
+#         print(f'This person fucking {work}')
 
-# introduce("John", "Snow", 'King')
+# introduce("John", "Snow", 'None')
 
 # 'Hello world! My nadisad feewwefwe few f ef,fewf fe f, fewf.'
 
 # def ls(mal):
-#     print(mal)
+    # print(mal)
 
 
 # ls = 'Hello world! My nadisad feewwefwe few f ef,fewf fe f, fewf.'

@@ -103,17 +103,98 @@
 #     print(y)
 #     return y
 
-def divide(x, z):
-    res = x / z
-    y = x + 10
-    print(y)
-    return res
+# def divide(x, z):
+#     res = x / z
+#     y = x + 10
+#     print(y)
+#     return res
 
 # res = devide(1500, 250)
 
 # devide(1)
 
-x = divide(1500, 250)
-y = x + 10
-print(y)
+# x = divide(1500, 250)
+# y = x + 10
+# print(y)
+
+# def divide(x, y):
+#     res = x / y
+#     return res
+
+# print(divide(1000, 25))
+
+# def duck(x, y, z):
+
+#     res = ((x + y)*z)
+#     return res
+
+# print(duck(1, 2, 3))
+
+
+
+
+# dict_ = {'q': 2, 123: 3}
+
+# def dictionary(arg=dict_):
+#     for key, x in arg.items():
+#         print(key, x)
+
+# dictionary()
+
+# num = 6
+
+# def check(num):
+#     if num % 2 == 0:
+#         print("It is even number")
+#     elif num % 2 != 0:
+#         print("It is odd number")
+
+
+# check(6)
+
+# def is_palindrome(slovo):
+#     return True if slovo.lower() == slovo[::-1].lower() else False
+
+# print(is_palindrome('Довот'))
+
+# def multiply_list(list_):
+#     i = 1
+#     for x in list_:
+#         i = x * i
+#     return i
+
+# print(multiply_list())
+
+
+# from functools import reduce
+
+
+# def nums(list_):
+    
+#     return reduce(lambda x, y: x+y, list_)
+    
+
+# a = [1,2,3,4,5,6]
+
+# print(nums(a))
+
+# def sum_digits(x):
+#     i = str(x).split('*')
+#     print(i)
+#     a = []
+#     for z in i[0]:
+#         a.append(int(z))
+#     print(a)
+#     return sum(a)
+
+# from functools import reduce
+
+# def sum_digits(nums):
+#     result = reduce(lambda a, b: int(a) + int(b), str(nums))
+#     return int(result)
+
+# print(sum_digits(105))
+
+
+
 

@@ -1,6 +1,6 @@
 import json
 
-FILE_PATH = 'daata.json'
+FILE_PATH = 'data.json'
 
 def get_data():
     with open(FILE_PATH)as file:
@@ -41,3 +41,4 @@ def update_product():
     choice = input('Что вы хотите изменить: 1 - title,2 - price')
     if choice == '1':
         data[index_]['title'] = input()
+
